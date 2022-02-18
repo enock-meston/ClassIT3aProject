@@ -8,5 +8,5 @@
  }
 
  $example= new Example();
- 
+ $example->echo("Hell world");
 ?>
