@@ -1,10 +1,12 @@
 <?php
-    class House 
-    {
+ class Example
+ {
+     public function echo($string){
+         echo $string;
+         
+     }
+ }
 
-        public $color ="black";
-        
-    }
-    
-
+ $example= new Example();
+ 
 ?>
