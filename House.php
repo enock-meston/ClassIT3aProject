@@ -21,6 +21,6 @@
  $house = new House();
  echo $house ->primaryColor;
  $house->changeColor('white');
- 
+ s
 
 ?>
