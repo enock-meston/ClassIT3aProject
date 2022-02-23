@@ -13,6 +13,10 @@
      public function changeColor(){
          $this->primaryColor = $color;
      }
+     public function changeColor1(){
+     $this->primaryColor="blue";
+ }
+
  }
      
  $example= new Example();
@@ -21,6 +25,10 @@
  $house = new House();
  echo $house ->primaryColor;
  $house->changeColor('white');
- s
+$house ->changeColor1();
 
+
+
+ 
+ 
 ?>
