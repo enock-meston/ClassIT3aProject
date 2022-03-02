@@ -10,7 +10,8 @@
  class House
  {
      public $primaryColor ="black";
-     public function changeColor(){
+     
+     public function changeColor($color){
          $this->primaryColor = $color;
      }
      public function changeColor1(){
