@@ -10,7 +10,7 @@ if (isset($_POST['savebtn'])) {
 
     $insertUser = new User();
     $insertUser->insertUser($user,$email,$pass);
-
+            
 }
 
 
